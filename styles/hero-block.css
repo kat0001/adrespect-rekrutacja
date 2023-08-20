@@ -1,0 +1,318 @@
+.hero-block {
+    display: flex;
+    width: 1440px;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 64px;
+    position: relative;
+    background-color: var(--beige);
+    border: 1px none;
+  }
+  
+  .hero-block .kontent {
+    display: flex;
+    flex-direction: column;
+    width: 599px;
+    align-items: flex-start;
+    gap: 72px;
+    position: relative;
+  }
+  
+  .hero-block .text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 44px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .hero-block .headline {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--black);
+    font-size: 60px;
+    letter-spacing: 0;
+    line-height: 70px;
+  }
+  
+  .hero-block .text-wrapper {
+    position: relative;
+    width: 489.01px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--black);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
+  
+  .hero-block .buttons {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 36px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .hero-block .button {
+    gap: 10px;
+    padding: 12px 24px 14px;
+    background-color: var(--green);
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    flex: 0 0 auto;
+    border-radius: 200px;
+  }
+  
+  .hero-block .CTA {
+    color: var(--grey);
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .hero-block .div {
+    gap: 8px;
+    padding: 12px 22px 14px;
+    border: 1px solid;
+    border-color: var(--green);
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    flex: 0 0 auto;
+    border-radius: 200px;
+  }
+  
+  .hero-block .CTA-2 {
+    color: var(--green);
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .hero-block .vectors-wrapper {
+    position: relative;
+    width: 16px;
+    height: 16px;
+  }
+  
+  .hero-block .photo {
+    position: relative;
+    width: 688px;
+    height: 737px;
+    background-color: #ffffff1a;
+    transform: rotate(180deg);
+    background-image: url(./img/photo.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .hero-block .frame {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 32px;
+    padding: 24px 32px;
+    position: relative;
+    background-color: #f5f0ec;
+    transform: rotate(180deg);
+  }
+  
+  .hero-block .img-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 48px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    transform: rotate(-180deg);
+  }
+  
+  .hero-block .img {
+    position: relative;
+    width: 24.29px;
+    height: 1px;
+    object-fit: cover;
+  }
+  
+  .hero-block .frame-2 {
+    display: flex;
+    flex-direction: column;
+    width: 48px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+  }
+  
+  .hero-block .vectors-wrapper-2 {
+    transform: rotate(-180deg);
+    position: relative;
+    width: 24.29px;
+    height: 1px;
+    object-fit: cover;
+  }
+  
+  .label {
+    width: 599px;
+    height: 210px;
+    border: 0px none;
+  }
+  
+  .label .headline {
+    position: fixed;
+    width: 599px;
+    top: 0;
+    left: 0;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-weight: 500;
+    color: #111111;
+    font-size: 60px;
+    letter-spacing: 0;
+    line-height: 70px;
+  }
+  
+  .label {
+    width: 489px;
+    height: 72px;
+    border: 0px none;
+  }
+  
+  .label .text {
+    position: fixed;
+    width: 489px;
+    top: 0;
+    left: 0;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #111111;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
+  
+  .button {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 24px 14px;
+    position: relative;
+    background-color: var(--green);
+    border: 1px none;
+  }
+  
+  .button .CTA {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--grey);
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .button .vectors-wrapper {
+    position: relative;
+    width: 16px;
+    height: 16px;
+  }
+  
+  .box {
+    width: 16px;
+    height: 16px;
+    border: 0px none;
+  }
+  
+  .box .vector {
+    position: fixed;
+    width: 16px;
+    height: 16px;
+    top: 0;
+    left: 0;
+  }
+
+  .photo {
+    position: relative;
+    width: 688px;
+    height: 737px;
+    background-color: #ffffff1a;
+    border: 1px none;
+    background-image: url(./img/photo.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .photo .frame {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 32px;
+    padding: 24px 32px;
+    position: relative;
+    background-color: #f5f0ec;
+    transform: rotate(180deg);
+  }
+  
+  .photo .img-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 48px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    transform: rotate(-180deg);
+  }
+  
+  .photo .vectors-wrapper {
+    position: relative;
+    width: 24.29px;
+    height: 1px;
+    object-fit: cover;
+  }
+  
+  .photo .div {
+    display: flex;
+    flex-direction: column;
+    width: 48px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+  }
+  
+  .photo .img {
+    position: relative;
+    width: 24.29px;
+    height: 1px;
+    transform: rotate(-180deg);
+    object-fit: cover;
+  }
